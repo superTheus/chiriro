@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap');
+
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#container {
+    padding: 14px 25px;
+    max-width: 1275px;
+    min-width: 320px;
+    width: 100%;
+    margin: auto;
+}
+
+.container-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.icons-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-logo {
+    width: 100px;
+}
+
+.img-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.ghost-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ghost {
+    width: 500px;
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F9F9F9;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 109%;
+    color: #F9F9F9;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #F9F9F9;
+}
+
+.btn-view {
+    margin-top: 50px;
+    display: flex;
+}
+
+.btn-watch {
+    width: 225px;
+    height: 45px;
+    background: #658E76;
+    clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: #F9F9F9;
+    padding: 8px 33px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.btn-trailer {
+    width: 225px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #658E76;
+    clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: #F9F9F9;
+    padding: 8px 33px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 962px) {
+    .ghost {
+        width: 300px;
+    }
+}
