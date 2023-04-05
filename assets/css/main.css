@@ -104,6 +104,11 @@ body {
     justify-content: space-evenly;
     align-items: center;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn-watch:hover {
+    color: #F9F9F9;
 }
 
 .btn-trailer {
@@ -123,6 +128,11 @@ body {
     justify-content: space-evenly;
     align-items: center;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn-trailer:hover {
+    color: #F9F9F9;
 }
 
 @media screen and (max-width: 962px) {
